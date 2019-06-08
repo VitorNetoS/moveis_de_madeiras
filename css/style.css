@@ -1,0 +1,63 @@
+fieldset{margin:1% auto;}
+table{ margin-top: 20px;}	
+.box-mensagem-crud{ margin-top: 10px;}
+.msg-erro{ color: red; }
+#cabecalho {
+    height: 150px;
+    width:100%;
+    background-color:rgb(70, 70, 189);
+    position: fixed;
+    top: 0%;
+    text-align: center;
+    
+}
+#navegacao {
+    background-color:rgb(171, 175, 165);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 100px;
+}
+#navegacao a {
+    color:rgb(25, 36, 131);
+    text-decoration: none;
+    margin: 0 40px;
+}
+#navegacao ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+#secaoPrincipal {
+    width:100%;
+    height: 100%;
+    margin-top: 150px;
+    overflow: auto;
+}
+#secaoPrincipal img {
+    width: 100%;
+    height: 80%;
+}
+#rodape {
+    height: 200px;
+    width: 100%;
+    background-color:rgb(171, 175, 165);
+    color:aquamarine;
+}
+#itens{
+    background-color: #dae4ee;
+    margin: 40px;
+    float: left;
+    padding: 2px;
+}
+.container{
+    background-color: rgb(253, 255, 254);
+}
+legend{
+    background-color: rgb(238, 217, 160);
+}
+legend h1{
+    text-align: center;
+}
+#name{
+    text-align: center;
+}
