@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS `moveis_md`.`funcionario` (
   `nome` VARCHAR(45) NOT NULL,
   `cpf` VARCHAR(11) NOT NULL,
   `email` VARCHAR(55) NOT NULL,
+  `telefone` VARCHAR(12) NOT NULL,
   `data_nacimento` DATE NOT NULL,
   `endereco` VARCHAR(100) NOT NULL,
   `foto` VARCHAR(200) NOT NULL,
